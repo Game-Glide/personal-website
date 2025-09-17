@@ -139,19 +139,19 @@ export interface Owner {
 }
 
 export enum EventsURL {
-  HTTPSAPIGithubCOMUsersYTGameWorksEventsPrivacy = "https://api.github.com/users/YT-GameWorks/events{/privacy}",
+  HTTPSAPIGithubCOMUsersYTGameWorksEventsPrivacy = "https://api.github.com/users/Game-Glide/events{/privacy}",
 }
 
 export enum FollowingURL {
-  HTTPSAPIGithubCOMUsersYTGameWorksFollowingOtherUser = "https://api.github.com/users/YT-GameWorks/following{/other_user}",
+  HTTPSAPIGithubCOMUsersYTGameWorksFollowingOtherUser = "https://api.github.com/users/Game-Glide/following{/other_user}",
 }
 
 export enum GistsURL {
-  HTTPSAPIGithubCOMUsersYTGameWorksGistsGistID = "https://api.github.com/users/YT-GameWorks/gists{/gist_id}",
+  HTTPSAPIGithubCOMUsersYTGameWorksGistsGistID = "https://api.github.com/users/Game-Glide/gists{/gist_id}",
 }
 
 export enum Login {
-  YTGameWorks = "YT-GameWorks",
+  GameGlide = "Game-Glide",
 }
 
 export enum OwnerNodeID {
@@ -159,7 +159,7 @@ export enum OwnerNodeID {
 }
 
 export enum StarredURL {
-  HTTPSAPIGithubCOMUsersYTGameWorksStarredOwnerRepo = "https://api.github.com/users/YT-GameWorks/starred{/owner}{/repo}",
+  HTTPSAPIGithubCOMUsersYTGameWorksStarredOwnerRepo = "https://api.github.com/users/Game-Glide/starred{/owner}{/repo}",
 }
 
 export enum Type {

@@ -42,7 +42,7 @@ export default class Projects extends Component<ProjectsProps, ProjectsState> {
     document.title = "Game Glide | Projects";
 
     const GithubProjects: GithubProject[] = await GetGithubProjects(
-      "YT-GameWorks"
+      "Game-Glide"
     );
     this.setState({ Projects: GithubProjects, isLoading: false });
     this.state.Projects.forEach((project: GithubProject) => {
@@ -119,7 +119,7 @@ export default class Projects extends Component<ProjectsProps, ProjectsState> {
                     onClick={async () => {
                       this.setState({ Projects: null, isLoading: true });
                       const GithubProjects = await GetGithubProjects(
-                        "YT-GameWorks"
+                        "Game-Glide"
                       );
                       this.setState({
                         Projects: GithubProjects,

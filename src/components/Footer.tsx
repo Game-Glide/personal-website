@@ -46,7 +46,7 @@ function Footer() {
             className='mr-4'
             onClick={(e) => {
               e.preventDefault();
-              window.open("https://github.com/YT-GameWorks", "_blank");
+              window.open("https://github.com/Game-Glide", "_blank");
             }}
           >
             <Icon as={AiOutlineGithub} label='github' className='w-4 h-4' />
@@ -59,7 +59,7 @@ function Footer() {
             onClick={(e) => {
               e.preventDefault();
               window.open(
-                "https://stackoverflow.com/users/14283093/yt-gameworks",
+                "https://stackoverflow.com/users/14283093/Game-Glide",
                 "_blank"
               );
             }}
